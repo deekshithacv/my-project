@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bright Mind Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <!-- Logo via URL -->
+          <img src="https://images.pexels.com/photos/4145198/pexels-photo-4145198.jpeg?auto=compress&cs=tinysrgb&h=50" alt="Bright Mind Academy Logo" class="logo">
+          Bright Mind Academy
+        </div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#courses">Courses</a>
+          <a href="#admissions">Admissions</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+      <div class="hero">
+        <div>
+          <h1>Unlock curiosity. Build skills. Brighten futures.</h1>
+          <p class="lead">Bright Mind Academy offers blended learning with small classes, experienced teachers, and project-based learning.</p>
+          <a class="cta" href="#admissions">Apply Now</a>
+        </div>
+        <div class="card">
+          <h3>Quick Enquiry</h3>
+          <form id="quickForm">
+            <label for="qname">Full name</label>
+            <input id="qname" required placeholder="Your name">
+            <label for="qcourse">Interested course</label>
+            <select id="qcourse">
+              <option>Mathematics</option>
+              <option>Science</option>
+              <option>Coding</option>
+              <option>English</option>
+            </select>
+            <button type="submit">Send Enquiry</button>
+            <div id="qmsg" class="success-msg">Thanks — we’ll contact you soon.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p class="lead">We support curious learners with small-group coaching and a focus on critical thinking.</p>
+      <!-- Classroom / learning image -->
+      <img src="https://images.pexels.com/photos/4145198/pexels-photo-4145198.jpeg?auto=compress&cs=tinysrgb&h=250" alt="Classroom image" class="img-wide">
+    </section>
+
+    <section id="courses">
+      <h2>Courses We Offer</h2>
+      <div class="grid-3">
+        <div class="card">
+          <img src="https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&h=150" alt="Mathematics" class="card-img">
+          <h3>Mathematics</h3>
+          <p>From basics to advanced problem solving.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.pexels.com/photos/256261/pexels-photo-256261.jpeg?auto=compress&cs=tinysrgb&h=150" alt="Science" class="card-img">
+          <h3>Science</h3>
+          <p>Concept-based learning and experiments.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&h=150" alt="Coding" class="card-img">
+          <h3>Coding</h3>
+          <p>Learn Python, Scratch, and web development.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="admissions">
+      <h2>Admissions</h2>
+      <p class="lead">Apply now and we’ll reach out for a short assessment.</p>
+      <form id="admissionForm">
+        <label for="name">Full name</label>
+        <input id="name" required placeholder="Student name">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="you@example.com">
+        <button type="submit">Submit Application</button>
+        <div id="admsg" class="success-msg">Application received. We will contact you soon.</div>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>📞 +91 98XXXXXXX | ✉️ hello@brightmind.com</p>
+      <p>📍 12 Learning Lane, Knowledge City</p>
+      <img src="https://images.pexels.com/photos/239765/pexels-photo-239765.jpeg?auto=compress&cs=tinysrgb&h=250" alt="Map / location" class="img-wide">
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © Bright Mind Academy 2025
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
